@@ -1,0 +1,77 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #777;
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.container {
+    display: flex;
+    min-height: calc(100vh - 80px);
+    margin: 0 10px; /* 👉 Recuo horizontal da tela */
+}
+
+.sidebar {
+    width: 280px; /* reduz um pouco para compensar o recuo */
+    background-color: white; /* fundo branco na barra lateral */
+    margin-right: 20px; /* 👉 espaço entre o menu e a linha divisória */
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    border-bottom: 1px solid #999;
+    margin-bottom: 5px; /* 👉 pequeno espaço entre as barras */
+}
+
+.sidebar a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+    background-color: #aaa; /* fundo cinza só no botão */
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    background-color: #888;
+    color: white;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    border-left: 2px solid black; /* 👉 linha divisória com o menu */
+}
+
+.content p {
+    margin-bottom: 1em; /* Espaço entre os parágrafos */
+    line-height: 1.5;   /* Espaçamento entre linhas dentro do parágrafo */
+}
+
+footer {
+    background-color: #777;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    margin: 0 10px; /* 👉 mesmo recuo do container */
+}
+
+
+
