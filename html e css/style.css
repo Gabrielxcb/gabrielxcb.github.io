@@ -1,4 +1,3 @@
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -22,13 +21,13 @@ header h1 {
 .container {
     display: flex;
     min-height: calc(100vh - 80px);
-    margin: 0 10px; /* 👉 Recuo horizontal da tela */
+    margin: 0 10px;
 }
 
 .sidebar {
-    width: 280px; /* reduz um pouco para compensar o recuo */
-    background-color: white; /* fundo branco na barra lateral */
-    margin-right: 20px; /* 👉 espaço entre o menu e a linha divisória */
+    width: 280px;
+    background-color: white;
+    margin-right: 20px;
 }
 
 .sidebar ul {
@@ -37,7 +36,7 @@ header h1 {
 
 .sidebar li {
     border-bottom: 1px solid #999;
-    margin-bottom: 5px; /* 👉 pequeno espaço entre as barras */
+    margin-bottom: 5px;
 }
 
 .sidebar a {
@@ -45,7 +44,7 @@ header h1 {
     padding: 15px;
     text-decoration: none;
     color: black;
-    background-color: #aaa; /* fundo cinza só no botão */
+    background-color: #aaa;
     font-weight: bold;
 }
 
@@ -57,12 +56,12 @@ header h1 {
 .content {
     flex: 1;
     padding: 20px;
-    border-left: 2px solid black; /* 👉 linha divisória com o menu */
+    border-left: 2px solid black; 
 }
 
 .content p {
-    margin-bottom: 1em; /* Espaço entre os parágrafos */
-    line-height: 1.5;   /* Espaçamento entre linhas dentro do parágrafo */
+    margin-bottom: 1em;
+    line-height: 1.5;  
 }
 
 footer {
@@ -70,7 +69,7 @@ footer {
     color: white;
     text-align: left;
     padding: 10px;
-    margin: 0 10px; /* 👉 mesmo recuo do container */
+    margin: 0 10px;
 }
 
 
